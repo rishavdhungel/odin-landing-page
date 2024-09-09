@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color:white;
+    height: 30px;
+    padding: 15px;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    padding-left: 55px;
+}
+
+.logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    padding:100px;
+}
+
+.hero-text-title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text-discription{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+button{
+    margin:10px;
+    background-color: #3882F6;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+button a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+
+}
+
+.info-title{
+    padding: 30px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info-card{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    
+}
+
+.info-box{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.box-text{
+    width: 150px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.quote-card{
+    background-color:#E5E7EB ;
+    font-size: 36px;
+    font-style: italic;
+    padding: 300px;
+}
+
+.quote-author{
+    font-weight: bold;
+    text-align: right;
+}
+
+.call-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.call-text{
+    color: #F9FAF8;
+}
+
+.call-btn a{
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 50px;
+    color:white;
+    text-align: center;
+    padding-top: 25px;
+}
